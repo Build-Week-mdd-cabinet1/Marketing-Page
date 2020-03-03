@@ -8,6 +8,7 @@ header{
     .attentionImg {
         display: flex;
         width: 40%;
+        background-color: black;
 
             img{
                 width: 100%;
@@ -25,12 +26,22 @@ header{
         .mainLeft {
             width: 55%;
             height: 40vh;
+
                 h1{
                     font-size: 6.5rem;
                     text-align: center;
                     margin-top: 7vh;
                     color: dimgrey;
                 }
+
+                img{
+                    display: block;
+                    margin: 3vh auto;
+
+                }
+
+
+
             }// .mainleft ends here
 
             .signUp{
@@ -92,5 +103,39 @@ header{
 }
 
 //Section moreInfo starts here.
+
+.moreInfo {
+    display: flex;
+    flex-wrap: wrap;
+
+    .pBox{
+        display: flex;
+        flex-wrap: wrap; 
+        margin: 3vh 0 3vh 0;
+
+        .sentenceBox{
+            display: flex;
+            flex-direction: column;
+            width: 68%;
+            
+            h3 {
+                font-size: 3.5rem;
+                margin-bottom: 3vh;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+
+        }// End of .sentenceBox
+
+        img{
+            width: 30%;
+            height: 45vh;
+        }
+
+    }//end of pBox
+
+} // End of .moreInfo
 
 

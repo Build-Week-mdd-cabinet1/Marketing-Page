@@ -134,6 +134,7 @@ html {
   font-size: 62.5%;
   width: 1200px;
   margin: 0 auto;
+  background-color: olivedrab;
 }
 Img {
   height: 100px;
@@ -151,6 +152,7 @@ header {
 header .attentionImg {
   display: flex;
   width: 40%;
+  background-color: black;
 }
 header .attentionImg img {
   width: 100%;
@@ -171,6 +173,10 @@ header .attentionGetter .mainLeft h1 {
   text-align: center;
   margin-top: 7vh;
   color: dimgrey;
+}
+header .attentionGetter .mainLeft img {
+  display: block;
+  margin: 3vh auto;
 }
 header .attentionGetter .signUp {
   display: flex;
@@ -213,4 +219,29 @@ header .attentionGetter .signUp button:hover {
 }
 .introToInfo p {
   font-size: 2rem;
+}
+.moreInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.moreInfo .pBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3vh 0 3vh 0;
+}
+.moreInfo .pBox .sentenceBox {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+}
+.moreInfo .pBox .sentenceBox h3 {
+  font-size: 3.5rem;
+  margin-bottom: 3vh;
+}
+.moreInfo .pBox .sentenceBox p {
+  font-size: 2rem;
+}
+.moreInfo .pBox img {
+  width: 30%;
+  height: 45vh;
 }
