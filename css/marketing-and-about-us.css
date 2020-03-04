@@ -134,7 +134,7 @@ html {
   font-size: 62.5%;
   width: 1200px;
   margin: 0 auto;
-  background-color: olivedrab;
+  background-color: #98FB98;
 }
 Img {
   height: 100px;
@@ -147,12 +147,12 @@ header {
   display: flex;
   max-width: 100%;
   height: 100vh;
-  background-color: black;
+  background-color: #3CB371;
 }
 header .attentionImg {
   display: flex;
   width: 40%;
-  background-color: black;
+  background-color: #98FB98;
 }
 header .attentionImg img {
   width: 100%;
@@ -172,7 +172,7 @@ header .attentionGetter .mainLeft h1 {
   font-size: 6.5rem;
   text-align: center;
   margin-top: 7vh;
-  color: dimgrey;
+  color: black;
 }
 header .attentionGetter .mainLeft img {
   display: block;
@@ -185,7 +185,7 @@ header .attentionGetter .signUp {
   width: 100%;
   padding: 5%;
   margin-top: 4vh;
-  background-color: dimgray;
+  background-color: #98FB98;
 }
 header .attentionGetter .signUp p {
   color: white;
@@ -226,13 +226,18 @@ header .attentionGetter .signUp button:hover {
 }
 .moreInfo .pBox {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  padding: 2vhx 0;
+  border-top: black 2px solid;
+  border-bottom: solid black 2px;
   margin: 3vh 0 3vh 0;
 }
 .moreInfo .pBox .sentenceBox {
   display: flex;
   flex-direction: column;
-  width: 68%;
+  max-width: 65%;
+  margin: 5px 0;
 }
 .moreInfo .pBox .sentenceBox h3 {
   font-size: 3.5rem;
@@ -244,4 +249,74 @@ header .attentionGetter .signUp button:hover {
 .moreInfo .pBox img {
   width: 30%;
   height: 45vh;
+}
+.aboutHeader {
+  height: 120px;
+  display: flex;
+  margin-top: 20px;
+}
+.aboutHeader nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.aboutHeader nav a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: cornsilk;
+}
+.introtobios {
+  margin: 5vh auto;
+  border-top: black solid 2px;
+  border-bottom: black solid 2px;
+}
+.introtobios h2 {
+  font-size: 4.5rem;
+}
+.introtobios p {
+  font-size: 2.5rem;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.team h3 {
+  font-size: 7rem;
+  text-align: center;
+  width: 100%;
+  border: solid black 2px;
+  margin-bottom: 40px;
+}
+.team .groupBox {
+  width: 100%;
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+.team .groupBox .soloBox {
+  width: 48%;
+  display: flex;
+  border-bottom: black 2px solid;
+}
+.team .groupBox .soloBox img {
+  width: 250px;
+  height: 250px;
+}
+.team .groupBox .soloBox .infobox {
+  width: 70%;
+  margin-left: 10px;
+}
+.team .groupBox .soloBox .infobox h4 {
+  font-size: 4.5rem;
+  margin-bottom: 10px;
+}
+.team .groupBox .soloBox .infobox h5 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.team .groupBox .soloBox .infobox p {
+  font-size: 2rem;
 }
