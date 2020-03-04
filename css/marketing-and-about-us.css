@@ -320,3 +320,23 @@ header .attentionGetter .signUp button:hover {
 .team .groupBox .soloBox .infobox p {
   font-size: 2rem;
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+footer nav {
+  height: 60px;
+  background-color: #3CB371;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+}
+footer h4 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+footer p {
+  font-size: 1.5rem;
+}
