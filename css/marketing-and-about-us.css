@@ -169,9 +169,9 @@ header .attentionGetter .mainLeft {
   height: 40vh;
 }
 header .attentionGetter .mainLeft h1 {
-  font-size: 6.5rem;
+  font-size: 5.5rem;
   text-align: center;
-  margin-top: 7vh;
+  margin-top: 4vh;
   color: black;
 }
 header .attentionGetter .mainLeft img {
@@ -183,8 +183,8 @@ header .attentionGetter .signUp {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  padding: 5%;
-  margin-top: 4vh;
+  padding: 3%;
+  margin-top: 13vh;
   background-color: #98FB98;
 }
 header .attentionGetter .signUp p {
@@ -254,6 +254,7 @@ header .attentionGetter .signUp button:hover {
   height: 120px;
   display: flex;
   margin-top: 20px;
+  align-items: center;
 }
 .aboutHeader nav {
   display: flex;
@@ -304,6 +305,7 @@ header .attentionGetter .signUp button:hover {
 .team .groupBox .soloBox img {
   width: 250px;
   height: 250px;
+  margin-bottom: 35px;
 }
 .team .groupBox .soloBox .infobox {
   width: 70%;
@@ -324,6 +326,7 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 20px;
 }
 footer nav {
   height: 60px;
@@ -332,6 +335,10 @@ footer nav {
   justify-content: space-around;
   align-items: center;
   font-size: 2rem;
+}
+footer nav a {
+  text-decoration: none;
+  color: cornsilk;
 }
 footer h4 {
   font-size: 2rem;
