@@ -203,11 +203,13 @@ header .attentionGetter .signUp button {
   height: 10vh;
   font-size: 2rem;
   border-radius: 7px;
-  text-decoration: none;
 }
 header .attentionGetter .signUp button:hover {
   background-color: black;
   color: grey;
+  text-decoration: none;
+}
+header .attentionGetter .signUp button a {
   text-decoration: none;
 }
 .introToInfo {
@@ -216,6 +218,7 @@ header .attentionGetter .signUp button:hover {
 }
 .introToInfo h2 {
   font-size: 4.55rem;
+  margin: 15px 0;
 }
 .introToInfo p {
   font-size: 2rem;
@@ -274,9 +277,11 @@ header .attentionGetter .signUp button:hover {
 }
 .introtobios h2 {
   font-size: 4.5rem;
+  margin: 10px 0;
 }
 .introtobios p {
   font-size: 2.5rem;
+  margin-bottom: 5px;
 }
 .team {
   display: flex;
