@@ -140,6 +140,9 @@ Img {
   height: 100px;
   width: 100px;
 }
+a {
+  text-decoration: none;
+}
 /*less-watch-compiler less css marketing-and-about-us.less*/
 /* this is to check where we are coding with a red border
 lb stands for locate boarder. */
@@ -251,7 +254,7 @@ header .attentionGetter .signUp button a {
 }
 .moreInfo .pBox img {
   width: 30%;
-  height: 45vh;
+  height: 100%;
 }
 .aboutHeader {
   height: 120px;
