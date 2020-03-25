@@ -1,0 +1,357 @@
+/*All import file go here*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #98FB98;
+}
+Img {
+  height: 100px;
+  width: 100px;
+}
+a {
+  text-decoration: none;
+}
+/*less-watch-compiler less css marketing-and-about-us.less*/
+/* this is to check where we are coding with a red border
+lb stands for locate boarder. */
+header {
+  display: flex;
+  max-width: 100%;
+  height: 100vh;
+  background-color: #3CB371;
+}
+header .attentionImg {
+  display: flex;
+  width: 40%;
+  background-color: #98FB98;
+}
+header .attentionImg img {
+  width: 100%;
+  height: 100vh;
+}
+header .attentionGetter {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+}
+header .attentionGetter .mainLeft {
+  width: 55%;
+  height: 40vh;
+}
+header .attentionGetter .mainLeft h1 {
+  font-size: 5.5rem;
+  text-align: center;
+  margin-top: 4vh;
+  color: black;
+}
+header .attentionGetter .mainLeft img {
+  display: block;
+  margin: 3vh auto;
+}
+header .attentionGetter .signUp {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 3%;
+  margin-top: 13vh;
+  background-color: #98FB98;
+}
+header .attentionGetter .signUp p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 5vh;
+  color: black;
+}
+header .attentionGetter .signUp button {
+  display: block;
+  margin: 3%;
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 10vh;
+  font-size: 2rem;
+  border-radius: 7px;
+}
+header .attentionGetter .signUp button:hover {
+  background-color: black;
+  color: grey;
+  text-decoration: none;
+}
+header .attentionGetter .signUp button a {
+  text-decoration: none;
+}
+.introToInfo {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.introToInfo h2 {
+  font-size: 4.55rem;
+  margin: 15px 0;
+}
+.introToInfo p {
+  font-size: 2rem;
+}
+.moreInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.moreInfo .pBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2vhx 0;
+  border-top: black 2px solid;
+  border-bottom: solid black 2px;
+  margin: 3vh 0 3vh 0;
+}
+.moreInfo .pBox .sentenceBox {
+  display: flex;
+  flex-direction: column;
+  max-width: 65%;
+  margin: 5px 0;
+}
+.moreInfo .pBox .sentenceBox h3 {
+  font-size: 3.5rem;
+  margin-bottom: 3vh;
+}
+.moreInfo .pBox .sentenceBox p {
+  font-size: 2rem;
+}
+.moreInfo .pBox img {
+  width: 30%;
+  height: 100%;
+}
+.aboutHeader {
+  height: 120px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.aboutHeader nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.aboutHeader nav a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: cornsilk;
+}
+.introtobios {
+  margin: 5vh auto;
+  border-top: black solid 2px;
+  border-bottom: black solid 2px;
+}
+.introtobios h2 {
+  font-size: 4.5rem;
+  margin: 10px 0;
+}
+.introtobios p {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.team h3 {
+  font-size: 7rem;
+  text-align: center;
+  width: 100%;
+  border: solid black 2px;
+  margin-bottom: 40px;
+}
+.team .groupBox {
+  width: 100%;
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+.team .groupBox .soloBox {
+  width: 48%;
+  display: flex;
+  border-bottom: black 2px solid;
+}
+.team .groupBox .soloBox img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 35px;
+}
+.team .groupBox .soloBox .infobox {
+  width: 70%;
+  margin-left: 10px;
+}
+.team .groupBox .soloBox .infobox h4 {
+  font-size: 4.5rem;
+  margin-bottom: 10px;
+}
+.team .groupBox .soloBox .infobox h5 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.team .groupBox .soloBox .infobox p {
+  font-size: 2rem;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+footer nav {
+  height: 60px;
+  background-color: #3CB371;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+}
+footer nav a {
+  text-decoration: none;
+  color: cornsilk;
+}
+footer h4 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+footer p {
+  font-size: 1.5rem;
+}

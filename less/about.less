@@ -1,0 +1,104 @@
+.aboutHeader {
+    height: 120px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+        a {
+            font-size: 3rem;
+            text-decoration: none;
+            color: @navFont;
+        }
+
+    }
+
+} //.aboutHeader ends here
+
+.introtobios{
+    margin: 5vh auto;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+    
+    h2{
+        font-size: 4.5rem;
+        margin: 10px 0
+    }
+
+    p {
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+    }
+} //introToBios ends here.
+
+//start bios.
+
+.team{
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+
+
+    h3{
+        font-size: 7rem;
+        text-align: center;
+        width: 100%;
+        border: solid black 2px;
+        margin-bottom: 40px;
+        
+    }
+
+    .groupBox{
+        width: 100%;
+        display:flex;
+        margin: 20px auto;
+        justify-content: space-between;
+
+        .soloBox{
+            width: 48%;
+            display: flex;
+            border-bottom: black 2px solid;
+
+
+            img{
+                width: 250px;
+                height: 250px;
+                margin-bottom: 35px;
+            }
+            
+                .infobox {
+                    width: 70%;
+                    margin-left: 10px;
+                
+                    h4{
+                        font-size: 4.5rem;
+                        margin-bottom: 10px;
+                    }
+                
+                    h5{
+                        font-size: 3rem;
+                        margin-bottom: 5px;
+                    }
+                
+                    p{
+                        font-size: 2rem;
+                    }
+                }// end of infobox
+
+            } //end of soloBox
+
+
+    }//end of groupBox
+
+
+
+}// class team ends
+
+        
